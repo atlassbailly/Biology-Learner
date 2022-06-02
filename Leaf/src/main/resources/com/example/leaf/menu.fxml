@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="current" prefHeight="640.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.leaf.Menu">
+    <children>
+        <ImageView fx:id="leaf" fitHeight="600.0" fitWidth="850.0" layoutX="8.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+        <ImageView fx:id="leafPic" fitHeight="109.0" fitWidth="247.0" layoutX="8.0" layoutY="73.0" onMouseClicked="#openLeaf" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="479.0" AnchorPane.leftAnchor="285.0" />
+        <ImageView fx:id="veinPic" fitHeight="71.0" fitWidth="161.0" layoutX="173.0" layoutY="509.0" onMouseClicked="#openVein" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="454.0" AnchorPane.leftAnchor="599.0" />
+        <ImageView fx:id="cellPic" fitHeight="105.0" fitWidth="197.0" layoutX="426.0" layoutY="490.0" onMouseClicked="#openCell" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="313.0" AnchorPane.leftAnchor="343.0" />
+        <ImageView fx:id="stomaPic" fitHeight="94.0" fitWidth="186.0" layoutX="325.0" layoutY="262.0" onMouseClicked="#openStoma" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="80.0" />
+        <ImageView fx:id="mitochondrionPic" fitHeight="94.0" fitWidth="194.0" layoutX="173.0" layoutY="509.0" onMouseClicked="#openMitochondrion" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="182.0" AnchorPane.leftAnchor="209.0" />
+        <ImageView fx:id="ribosomePic" fitHeight="80.0" fitWidth="103.0" layoutX="426.0" layoutY="490.0" onMouseClicked="#openRibosome" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="276.0" AnchorPane.leftAnchor="117.0" />
+        <ImageView fx:id="matrixPic" fitHeight="92.0" fitWidth="102.0" layoutX="325.0" layoutY="262.0" onMouseClicked="#openMatrix" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="165.0" AnchorPane.leftAnchor="54.0" />
+        <ImageView fx:id="outerPic" fitHeight="94.0" fitWidth="106.0" layoutX="173.0" layoutY="509.0" onMouseClicked="#openOuter" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="83.0" />
+        <ImageView fx:id="innerPic" fitHeight="103.0" fitWidth="97.0" layoutX="426.0" layoutY="490.0" onMouseClicked="#openInner" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="215.0" />
+        <ImageView fx:id="dnaPic" fitHeight="92.0" fitWidth="113.0" layoutX="325.0" layoutY="262.0" onMouseClicked="#openDna" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="57.0" AnchorPane.leftAnchor="368.0" />
+        <ImageView fx:id="chloroplastPic" fitHeight="118.0" fitWidth="172.0" layoutX="173.0" layoutY="509.0" onMouseClicked="#openChloroplast" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="234.0" AnchorPane.leftAnchor="558.0" />
+        <ImageView fx:id="granaPic" fitHeight="107.0" fitWidth="120.0" layoutX="426.0" layoutY="490.0" onMouseClicked="#openGrana" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="551.0" />
+        <ImageView fx:id="thylakoidPic" fitHeight="105.0" fitWidth="120.0" layoutX="325.0" layoutY="262.0" onMouseClicked="#openThylakoid" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="81.0" AnchorPane.leftAnchor="694.0" />
+        <ToolBar layoutY="3.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.bottomAnchor="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <items>
+                <Button mnemonicParsing="false" onAction="#test" text="Take Test">
+                    <font>
+                        <Font size="14.0" />
+                    </font></Button>
+                <Button mnemonicParsing="false" onAction="#moreInfo" text="More Info">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Label fx:id="goal" text="     Click on a bubble to be transported to that screen!">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+            </items>
+        </ToolBar>
+    </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="current" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.leaf.aIntro">
+   <children>
+      <Label fx:id="intro" alignment="CENTER" prefHeight="100.0" prefWidth="600.0" text="Life GROWS in the DARK!" textAlignment="CENTER" AnchorPane.bottomAnchor="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="readyButton" layoutX="200.0" layoutY="475.0" mnemonicParsing="false" onAction="#openLeaf" prefHeight="75.0" prefWidth="200.0" text="Ready?" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="475.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Text fx:id="welcomeText" layoutX="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="450.13671875" AnchorPane.bottomAnchor="429.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

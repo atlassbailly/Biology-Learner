@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="current" prefHeight="640.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.leaf.cStomata">
+   <children>
+      <ImageView fx:id="stomataPic" fitHeight="600.0" fitWidth="600.0" layoutX="8.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+      <Separator layoutX="571.0" layoutY="261.0" orientation="VERTICAL" prefHeight="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="600.0" AnchorPane.rightAnchor="245.0" AnchorPane.topAnchor="40.0" />
+      <ToolBar layoutY="3.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.bottomAnchor="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <Button mnemonicParsing="false" onAction="#back" text="Back">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#test" text="Take Test">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#selectionTree" text="Selection Tree">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#moreInfo" text="More Info">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="goal" text="Role: translates mitochondrial mRNAs from DNA..">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </items>
+      </ToolBar>
+      <Pane layoutX="600.0" layoutY="40.0" prefHeight="592.0" prefWidth="250.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="605.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+         <children>
+            <Text fx:id="infobar" layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="215.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <ImageView fx:id="time" fitHeight="100.0" fitWidth="100.0" layoutX="400.0" layoutY="59.0" onMouseClicked="#time" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="265.0" AnchorPane.topAnchor="55.0" />
+   </children>
+</AnchorPane>
